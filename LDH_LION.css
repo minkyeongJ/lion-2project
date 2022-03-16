@@ -1,0 +1,155 @@
+/* Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+    font-family: 'Nanum';
+    font-size: 13px; /*일반적으로 한국에서 13p 사용*/
+    color: #222;
+    /*기본 적용된 마진과 패딩을 없앰*/
+    margin: 0;
+    padding: 0;
+    background-color: #4D4D4D;
+}
+
+/* Layout CSS */
+.container {
+    background-color: #FFFFFF;
+    min-width: 400px;
+    /* Centering Layout => 화면 사이즈에 상관 없이 가운데 위치(margin: outo; 사용안함)*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 6px;
+}
+.login-title {
+    text-align: center; 
+    position: relative;
+    border-bottom: 0.3px solid rgb(160, 160, 160);
+    padding-bottom: 13px;
+    font-weight: 800;
+}
+.contents {
+    margin: 20px;
+    font-weight: 550;
+}
+.login-content {
+    font-size: 16px;
+}
+.login-state input{
+    visibility: hidden; 
+    position: absolute; 
+    left: -10px;
+}
+/* .login-state input[type="checkbox"] + label{
+    content: url(LDH_LION_img/icon_check_empty.png);
+}
+.login-state input[type="checkbox"]:checked + label{
+    content: url(LDH_LION_img/icon_check.png);
+} */
+.login-state img{
+    vertical-align: middle;
+    width: 16px;
+}
+.login-type {
+    text-align: center;
+}
+.join-find {
+    text-align: center;
+    font-size: 11px;
+}
+.join-find a{
+    text-decoration: none; /*밑줄 없애기*/
+    color: rgb(86, 86, 86);
+}
+.join-find a:hover{
+    text-decoration: underline;
+}
+
+/* Button CSS */
+.close img{
+    position: absolute;
+    right: 13px;
+    width: 12px;
+    top: 2px;
+}
+a.btn {
+    display: block;
+    text-decoration: none; /*밑줄 없애기*/
+    text-align: center;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 10px 0;
+    position: relative;
+}
+.origin-btn{
+    border: 1px solid #2E7FED;
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+}
+.login-type a:nth-of-type(1) {
+    border: 1px solid #5e5e5e;
+    color: #5e5e5e;
+}
+.login-type a:nth-of-type(2) {
+    border: 1px solid #2D9CDB;
+    color: #5e5e5e;
+}
+.login-type a:nth-of-type(3) {
+    border: 1px solid #00BE16;
+    color: #8C8C8C;
+}
+.login-type a:nth-of-type(4) {
+    border: 1px solid #F2C94C;
+    color: #8C8C8C;
+}
+
+.login-type a:nth-of-type(1):before {
+    content: url(LDH_LION_img/icon_google.png);
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.login-type a:nth-of-type(2):before {
+    content: url(LDH_LION_img/icon_facebook.png);
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+.login-type a:nth-of-type(3):before {
+    content: url(LDH_LION_img/icon_naver.png);
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.login-type a:nth-of-type(4):before {
+    content: url(LDH_LION_img/icon_kakao.png);
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+span.or-txt {
+    display: block;
+    margin-top: 15px;
+    position: relative;
+}
+span.or-txt:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background-color: rgb(155, 155, 155);
+    width: 44%;
+    height: 0.5px;
+}
+span.or-txt:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background-color: rgb(155, 155, 155);
+    width: 44%;
+    height: 0.5px;
+}
