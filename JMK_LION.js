@@ -3,9 +3,9 @@ check_img.onclick = changePic; // check_id를 클릭하면 changePic 함수를 �
 
 function changePic() {
     var state = check_img.getAttribute("src");
-    if(state == "LDH_LION_img/icon_check.png"){
-        check_img.src = "LDH_LION_img/icon_check_empty.png";
+    if(state == "JMK_LION_img/icon_check.png"){
+        check_img.src = "JMK_LION_img/icon_check_empty.png";
     }else{
-        check_img.src = "LDH_LION_img/icon_check.png";
+        check_img.src = "JMK_LION_img/icon_check.png";
     }
 }

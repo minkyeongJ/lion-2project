@@ -42,10 +42,10 @@ body {
     left: -10px;
 }
 /* .login-state input[type="checkbox"] + label{
-    content: url(LDH_LION_img/icon_check_empty.png);
+    content: url(JMK_LION_img/icon_check_empty.png);
 }
 .login-state input[type="checkbox"]:checked + label{
-    content: url(LDH_LION_img/icon_check.png);
+    content: url(JMK_LION_img/icon_check.png);
 } */
 .login-state img{
     vertical-align: middle;
@@ -107,25 +107,25 @@ a.btn {
 }
 
 .login-type a:nth-of-type(1):before {
-    content: url(LDH_LION_img/icon_google.png);
+    content: url(JMK_LION_img/icon_google.png);
     position: absolute;
     left: 10px;
     top: 12px;
 }
 .login-type a:nth-of-type(2):before {
-    content: url(LDH_LION_img/icon_facebook.png);
+    content: url(JMK_LION_img/icon_facebook.png);
     position: absolute;
     left: 12px;
     top: 12px;
 }
 .login-type a:nth-of-type(3):before {
-    content: url(LDH_LION_img/icon_naver.png);
+    content: url(JMK_LION_img/icon_naver.png);
     position: absolute;
     left: 10px;
     top: 12px;
 }
 .login-type a:nth-of-type(4):before {
-    content: url(LDH_LION_img/icon_kakao.png);
+    content: url(JMK_LION_img/icon_kakao.png);
     position: absolute;
     left: 10px;
     top: 12px;
