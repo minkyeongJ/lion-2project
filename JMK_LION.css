@@ -25,7 +25,7 @@ body {
 .login-title {
     text-align: center; 
     position: relative;
-    border-bottom: 0.3px solid rgb(160, 160, 160);
+    border-bottom: 0.3px solid #bdbdbd;
     padding-bottom: 13px;
     font-weight: 800;
 }
@@ -34,22 +34,15 @@ body {
     font-weight: 550;
 }
 .login-content {
-    font-size: 16px;
+    font-size: 15px;
 }
-.login-state input{
-    visibility: hidden; 
-    position: absolute; 
-    left: -10px;
+.login-state{
+    color: #898989;
 }
-/* .login-state input[type="checkbox"] + label{
-    content: url(JMK_LION_img/icon_check_empty.png);
-}
-.login-state input[type="checkbox"]:checked + label{
-    content: url(JMK_LION_img/icon_check.png);
-} */
 .login-state img{
     vertical-align: middle;
     width: 16px;
+    margin-top: -3px;
 }
 .login-type {
     text-align: center;
@@ -60,7 +53,7 @@ body {
 }
 .join-find a{
     text-decoration: none; /*밑줄 없애기*/
-    color: rgb(86, 86, 86);
+    color: #898989;
 }
 .join-find a:hover{
     text-decoration: underline;
@@ -84,26 +77,26 @@ a.btn {
 }
 .origin-btn{
     border: 1px solid #2E7FED;
-    background-color: #2F80ED;
+    background-color: #2f80ed;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 17px;
 }
 .login-type a:nth-of-type(1) {
-    border: 1px solid #5e5e5e;
-    color: #5e5e5e;
+    border: 1px solid #adadad;
+    color: #8c8c8c;
 }
 .login-type a:nth-of-type(2) {
-    border: 1px solid #2D9CDB;
-    color: #5e5e5e;
+    border: 1px solid #59b1e3;
+    color: #8c8c8c;
 }
 .login-type a:nth-of-type(3) {
-    border: 1px solid #00BE16;
-    color: #8C8C8C;
+    border: 1px solid #36cc49;
+    color: #8c8c8c;
 }
 .login-type a:nth-of-type(4) {
-    border: 1px solid #F2C94C;
-    color: #8C8C8C;
+    border: 1px solid #f4d26a;
+    color: #8c8c8c;
 }
 
 .login-type a:nth-of-type(1):before {
@@ -132,15 +125,18 @@ a.btn {
 }
 span.or-txt {
     display: block;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     position: relative;
+    color: #898989;
+    font-size: 11px;
 }
 span.or-txt:before {
     content: '';
     position: absolute;
     top: 7px;
     left: 0;
-    background-color: rgb(155, 155, 155);
+    background-color: #bdbdbd;
     width: 44%;
     height: 0.5px;
 }
@@ -149,7 +145,7 @@ span.or-txt:after {
     position: absolute;
     top: 7px;
     right: 0;
-    background-color: rgb(155, 155, 155);
+    background-color: #bdbdbd;
     width: 44%;
     height: 0.5px;
 }
