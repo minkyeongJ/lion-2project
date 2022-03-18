@@ -50,6 +50,7 @@ body {
 .join-find {
     text-align: center;
     font-size: 11px;
+    color: #898989;
 }
 .join-find a{
     text-decoration: none; /*밑줄 없애기*/
